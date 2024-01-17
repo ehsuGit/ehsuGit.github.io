@@ -1,59 +1,56 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Emily Hsu",
     "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
+    "picture": "https://github.com/ehsuGit.png",
+    "email": "ehsu@hawaii.edu",
     "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
+    "website": "https://ehsuGit.github.io",
+    "summary": "I am currently a student at UH Manoa working towards my BS degree in Biology, with an interest in Computer Science and studies that utilize both fields. I expect to graduate in Fall 2025",
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "github", "username": "ehsuGit", "url": "http://github.com/ehsuGit" },
+      { "network": "linkedin", "username": "emilyhsu", "url": "http://linkedin.com/in/emily-hsu-086ba9232/" }
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Genomics" },
+    { "name": "Biotechnology" },
+    { "name": "Data Science" },
+    { "name": "Illustration" },
+    { "name": "Bioinformatics" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "C", "C++", "Java", "Javascript" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "Windows", "Git/GitHub" ]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Biology (expected Fall, 2025)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2021-09-01",
       "endDate": "Present",
-      "courses": [
-      ]
+      "courses": [ "ICS 212", "ICS 141/241" ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
+      "company": "UH Manoa Peer Advisors",
+      "position": "Nancy Atmospera-Walch School of Nursing Peer Advisor",
+      "website": "https://manoa.hawaii.edu/undergrad/mpa/",
+      "startDate": "2022-08-01",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Students trained to help their peers navigate college.",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Aiding students in their academic and future careers",
+        "Ensuring student success in their classes and community"
       ]
     },
     {
@@ -104,10 +101,10 @@
       "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Second Place",
+      "date": "Feb 2018",
+      "awarder": "CyberStart America",
+      "summary": "My team and I won second in the state, advanced through multiple difficulties of cybersecurity puzzles."
     }
   ],
   "references": [
