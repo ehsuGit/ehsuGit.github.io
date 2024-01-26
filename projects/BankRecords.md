@@ -2,15 +2,11 @@
 layout: project
 type: project
 image: img/csa-img.png
-title: "CyberStart America"
-date: 2018
+title: "BankRecords"
+date: 2024
 published: true
 labels:
-  - Python
-  - Java
-  - Cryptography
-  - Forensics
-  - Cybersecurity
+  - C
 summary: "A text adventure game that I developed for ICS 313."
 ---
 
