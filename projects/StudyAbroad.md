@@ -6,11 +6,7 @@ title: "CyberStart America"
 date: 2018
 published: true
 labels:
-  - Python
-  - Java
-  - Cryptography
-  - Forensics
-  - Cybersecurity
+  - Public Speaking
 summary: "A text adventure game that I developed for ICS 313."
 ---
 
