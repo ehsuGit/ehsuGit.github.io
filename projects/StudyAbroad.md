@@ -1,58 +1,22 @@
 ---
 layout: project
 type: project
-image: img/csa-img.png
-title: "CyberStart America"
-date: 2018
+image: img/studyabroad.jpeg
+title: "UHM in Taiwan"
+date: 2023
 published: true
 labels:
   - Public Speaking
-summary: "A text adventure game that I developed for ICS 313."
+  - Foreign Language
+  - Team Communication
+  - Time Management
+summary: "Summer Intensive Immersion Program with the Chinese Language Flagship Center"
 ---
 
-<img class="img-fluid" src="../img/csa-header.png">
+<img class="img-fluid" src="../img/sunmoonlake.jpeg">
 
-Cotton is a horror-style text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+In the summer of 2023, I applied to and was selected for the UHM in Taiwan study abroad program. This program was a collaboration between the University of Hawaii at Manoa and National Tsing Hua University. Along with students from UHM, students from 5 other esteemed colleges attended as well. Within the program, we were fortunate to visit many cultural and historical sites while working on improving our language proficiency. More in-depth information and documents about the program can be found in the newsletters, detailing our [first](https://drive.google.com/file/d/1JdJqSHI7OLuh1SrqjGvqWUdqOGEn5c2u/view?usp=drive_link) and [second](https://drive.google.com/file/d/1z_dCBDtyYvGQ4wO3X7l_4D-TLuUZThwD/view?usp=drive_link) month, as well as the [closing ceremony](https://drive.google.com/file/d/1aC1czxet1zArMr7tFNrBrftV56yuEQL3/view?usp=drive_link).
 
-To give you a flavor of the game, here is an excerpt from one run:
+The 8-week program consisted of classes Monday through Friday, from 8 to 4 as well as 2 excursions per week. Among some of the excursions were trips to Sun Moon Lake; a site of importance for the indigenous Thao tribe, the National Palace Museum; home to over 700,000 preserved artifacts and artworks, and the TSMC Museum of Innovation; housing the story of one of the world's largest semiconductor factories. The program was nothing short of rigorous. With 2 Chinese essays and a presentation a week, exams every week and a half, the schedule taught many of the students, including myself, to maximize material retained per amount of time spent and setting up an efficient work plan. Learning a language by itself is not an easy task, much less if it were to be taught in 2 months.
 
-<hr>
-
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
-
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
-
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
-
-pickup candle
-- you are now carrying the candle -
-
-pickup match
-- you are now carrying the match -
-
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
-
-<hr>
-
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
+As a culmination of our studies and work, our final project broke us off into randomized groups with a select topic to research. My group and I analyzed the local environment and food culture and contrasted it with the norms of American society. With myself in charge of conducting interviews with locals and other international programs, we organized and drew conclusions from the data before presenting it for the directors of the program and colleges. 
