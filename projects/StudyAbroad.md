@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/studyabroad.jpeg
+image: img/studyabroad.jpg
 title: "UHM in Taiwan"
 date: 2023
 published: true
@@ -13,7 +13,7 @@ labels:
 summary: "Summer Intensive Immersion Program with the Chinese Language Flagship Center"
 ---
 
-<img class="img-fluid" src="../img/sunmoonlake.jpeg">
+<img class="img-fluid" src="../img/sunmoonlake.jpg">
 
 In the summer of 2023, I applied to and was selected for the UHM in Taiwan study abroad program. This program was a collaboration between the University of Hawaii at Manoa and National Tsing Hua University. Along with students from UHM, students from 5 other esteemed colleges attended as well. Within the program, we were fortunate to visit many cultural and historical sites while working on improving our language proficiency. More in-depth information and documents about the program can be found in the newsletters, detailing our [first](https://drive.google.com/file/d/1JdJqSHI7OLuh1SrqjGvqWUdqOGEn5c2u/view?usp=drive_link) and [second](https://drive.google.com/file/d/1z_dCBDtyYvGQ4wO3X7l_4D-TLuUZThwD/view?usp=drive_link) month, as well as the [closing ceremony](https://drive.google.com/file/d/1aC1czxet1zArMr7tFNrBrftV56yuEQL3/view?usp=drive_link).
 
