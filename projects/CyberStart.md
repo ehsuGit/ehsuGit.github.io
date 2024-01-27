@@ -4,7 +4,7 @@ type: project
 image: img/csa-img.png
 title: "CyberStart America"
 date: 2018
-published: false
+published: true
 labels:
   - Python
   - Java
