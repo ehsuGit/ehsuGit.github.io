@@ -22,14 +22,6 @@ This project was relatively larger than most other assignments, and had to be ta
 The repo can be found [here](https://github.com/ehsuGit/Project1Bank). Below is a snippet of the code from the User Interface file:
 
 ```C
-
-#include <stdio.h>
-#include <string.h>
-#include "database.h"
-
-int debugMode = 0;
-void getaddress(char[], int);
-
 int main(int argc, char* argv[])
 {
     struct record * start = NULL;
@@ -38,14 +30,12 @@ int main(int argc, char* argv[])
     int quit = 0;
     int i;
     char filename[] = "savedrecords.txt";
-
     if (argc > 2)
     {
         debugMode = 0;
         quit = 1;
         printf("No such file or directory\n");
     }
-
     if (argc == 2)
     {
         int length = strlen(argv[1]);
@@ -71,24 +61,10 @@ int main(int argc, char* argv[])
             printf("No such file or directory\n");
         }
     }
-
     if(quit == 0)
     {
         printf("Welcome to Banking XX, where we take care of all your banker needs :)\n");
     }
-    
     readfile(pstart, filename); 
-    while(quit == 0)
-    {
-        char menu[20];
-        char trash[80];
-        select = -1;
-
-        printf("\nPlease type what you would like to do today from the options below.\n");
-        printf("\tadd: add a new banking record into the database.\n");
-        printf("\tprintall: print all existing records in the database.\n");
-        printf("\tfind: find specific banking record(s).\n");
-        printf("\tdelete: delete specified banking record(s).\n");
-        printf("\tquit: Quit this program.\n");
 
 ```
