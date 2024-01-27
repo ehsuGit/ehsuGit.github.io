@@ -4,17 +4,21 @@ type: project
 image: img/csa-img.png
 title: "CyberStart America"
 date: 2018
-published: true
+published: false
 labels:
   - Python
   - Java
   - Cryptography
   - Forensics
   - Cybersecurity
-summary: "A text adventure game that I developed for ICS 313."
+summary: "An all-girls cybersecurity tournament that my team and I placed State Second in"
 ---
 
 <img class="img-fluid" src="../img/csa-header.png">
+
+[Girls Go Cyberstart](https://medium.com/girls-go-cyberstart) was one of the first computer science-related competitions I participated in and my first delve into cybersecurity. Still being new to programming with even less experience in collaborative coding, it was a daunting task for me and my team of three other girls.
+
+The competition was based on advancing through increasingly difficult levels and puzzles that were worth some amount of points. It was open for 6 days; competitors were allowed to work through each of the different sections on their own time. 
 
 Cotton is a horror-style text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
 
