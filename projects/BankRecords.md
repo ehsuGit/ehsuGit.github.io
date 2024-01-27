@@ -1,58 +1,94 @@
 ---
 layout: project
 type: project
-image: img/csa-img.png
-title: "BankRecords"
-date: 2024
+image: img/banking.png
+title: "Bank Records"
+date: 2023
 published: true
 labels:
   - C
-summary: "A text adventure game that I developed for ICS 313."
+  - UI
+summary: "A banking UI I developed for ICS 212"
 ---
 
-<img class="img-fluid" src="../img/csa-header.png">
+<img width="200px" 
+     class="rounded float-start pe-4" 
+     src="../img/banking2.png" >
 
-Cotton is a horror-style text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+As a mid-semester project assigned to test our capabilities in all of the major concepts of C, we were instructed to create a banking program complete with a simple user interface and database. The user interface had to allow users a selection of adding records, deleting, finding, printing all of the recorded records, or quitting the program. The program also had to "save" previous records from different sessions by writing the records to a file before quitting, and reading the contents when the program is run. The project also had a built-in debug mode, toggled through the command line. The debug mode would print the functions running in the background as well as any information that was passed to said functions. Overall, the project covered pointers, structures, dynamic/static memory allocation, global/local variables, file manipulation, etc.
 
-To give you a flavor of the game, here is an excerpt from one run:
+This project was relatively larger than most other assignments, and had to be tackled in chunks with frequent testing in between. I developed a plan of test cases, continuously adding new tests as more edits were made, making sure that each of the earliest tests passed before moving forward with coding. The user input needed to accept half-written words like "del" as "delete", "pr" as "printAll", but reject any typos or unnecessary additional letters to the keywords like "add*ing*" for "add". When prompted for information of banking records, the program needed to give specific and unique answers to any mistakes the user may make such as creating a negative banking record, or searching for a record that doesn't exist. Eventually, the test cases stretched to 150+ cases. Developing this process has made this project and will make other, potentially larger projects much easier to break down.
 
-<hr>
+The repo can be found [here](https://github.com/ehsuGit/Project1Bank). Below is a snippet of the code from the User Interface file:
 
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
+```C
 
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
+#include <stdio.h>
+#include <string.h>
+#include "database.h"
 
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
+int debugMode = 0;
+void getaddress(char[], int);
 
-pickup candle
-- you are now carrying the candle -
+int main(int argc, char* argv[])
+{
+    struct record * start = NULL;
+    struct record ** pstart = &start;
+    int select = -1;
+    int quit = 0;
+    int i;
+    char filename[] = "savedrecords.txt";
 
-pickup match
-- you are now carrying the match -
+    if (argc > 2)
+    {
+        debugMode = 0;
+        quit = 1;
+        printf("No such file or directory\n");
+    }
 
-light match candle
+    if (argc == 2)
+    {
+        int length = strlen(argv[1]);
+        if (length == 5)
+        {
+            if (strcmp(argv[1], "debug") == 0)
+            {
+                debugMode = 1;
+                printf("DEBUG MODE ON\n");
+            }
+            else
+            {
+                debugMode = 0;
+                quit = 1;
+                printf("No such file or directory\n");
+            }
+        }   
+        else
+        {
+            debugMode = 0;
+            i = 10;
+            quit = 1;
+            printf("No such file or directory\n");
+        }
+    }
 
-The candle is now lit. It illuminates everything in the room.
+    if(quit == 0)
+    {
+        printf("Welcome to Banking XX, where we take care of all your banker needs :)\n");
+    }
+    
+    readfile(pstart, filename); 
+    while(quit == 0)
+    {
+        char menu[20];
+        char trash[80];
+        select = -1;
 
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
+        printf("\nPlease type what you would like to do today from the options below.\n");
+        printf("\tadd: add a new banking record into the database.\n");
+        printf("\tprintall: print all existing records in the database.\n");
+        printf("\tfind: find specific banking record(s).\n");
+        printf("\tdelete: delete specified banking record(s).\n");
+        printf("\tquit: Quit this program.\n");
 
-<hr>
-
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
+```
