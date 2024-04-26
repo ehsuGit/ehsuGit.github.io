@@ -10,7 +10,7 @@ labels:
   - Organizational
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
+<img width="200px" class="rounded float-start pe-4" src="../img/design-pattern.png">
 
 When you first try your hand at code, whether it be in school or as a hobby, you tend to see a lot of the same exercises used as practice or as the daily puzzle. Experienced coders all have come across these problems themselves and likely know what I am referring to; “search through this array and find this element”, “write some code to swap these two elements in the array”, “sort through this array from min to max”, etc. These are all staples that most coders within their first year have some sort of experience with solving. When asked, they immediately start thinking about search algorithms such as binary search or linear search, sorting algorithms such as bubble sort or merge sort, using some sort of solution that has already been solidified in their minds and in the community. Because of how common these problems are, there is a plethora of documentations reviewing and comparing the functionality and efficiency of the solutions, listing their pros and cons, and providing the basic code for each of the algorithms.
 
