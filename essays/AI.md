@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "A Fork in the Road"
+title: "The New Technological Revolution"
 # All dates must be YYYY-MM-DD format!
 date: 2024-05-06
 published: true
@@ -79,20 +79,23 @@ ESLint errors or just general errors were simple enough to fix based on the erro
 I did not use AI elsewhere.
 
 ### III. Impact on Learning and Understanding:
-I know that my lack of use of AI generally makes my work less efficient than my peers, and with the rapid development of AI, I also know that it will one day be customary to use AI in daily software development. It is indeed a great tool with vast amounts of potential, yet there is still a part of me that wants to first create a foundation for myself, by myself before delving into AI. 
+AI has the potential to teach vast amounts of people a multitude of different skills and subjects, and can pump out solutions to difficult issues much quicker than a normal human can. It has the ability for nearly anything with just a little bit of prompting or adjusting. There is no wonder why it has become such a useful tool in many people’s daily lives. 
+
+I know that my lack of use of AI generally makes my work less efficient than my peers, and with the rapid development of AI, I also know that it will one day be customary to use AI in daily software development. It is indeed a great tool with vast amounts of potential, yet there is still a part of me that wants to first create a foundation for myself, by myself before delving into AI. From what I have experienced so far in this class, I was able to handle not using AI, therefore I cannot say if it had enhanced or challenged my understanding of the software engineering concepts. My use of AI may change, or remain the same in the future. 
 
 ### IV. Practical Applications:
-Explore any practical applications of AI outside ICS 314. For instance, discuss if AI has been used in real-world projects, simulations, or collaborative activities (for example the HACC). Evaluate the effectiveness of AI applications in addressing real-world software engineering challenges.
+AI has been used in a myriad of different applications worldwide, in fields such as healthcare, agriculture, transportation, entertainment, etc. As we continue to develop this technology, AI will continue to find its solid place in every subject. In the scene of environmental sustainability, AI has been used to track pollution and climate changes, filter through images of rare wildlife and invasive species sightings to take care of the tedious tasks, leaving us more time to conduct fieldwork.
+
+I think that it is an invaluable tool that can be adapted to daily life, but in the larger sense I also believe that it may still be too new of a technology; so new that our moral senses and logic have not yet caught up. In these coming years, there will be a lot of turmoil around AI before a stable ground can be reached. 
 
 ### V. Challenges and Opportunities:
-Identify any challenges or limitations you have encountered in the use of AI within the course. Discuss potential opportunities for further integration of AI in software engineering education.
+I can’t recall any time where AI has brought me challenges or limitations during this course since I didn’t really use it. I could just have bad memory, but I’m not sure there was any significant AI material in the course material either. More material on how to utilize AI or train our own AI software for an application that we build could be interesting.
 
 ### VI. Comparative Analysis:
-Provide a comparative analysis between traditional teaching methods and AI-enhanced approaches in the context of software engineering education. Consider aspects like engagement, knowledge retention, and practical skill development.
+Education is notably difficult for teachers, especially those working K-12 due to high student-to-teacher ratios and the additional job of taking care of the children. AI will definitely take some of the pressure off educators in the future, with auto-grading systems and personalized learning plans for students as just some of the possibilities. Traditional teaching methods are usually rather static, sticking to a set plan of material and moving on regardless of whether someone falls behind. The integration of AI-driven games for education can also help to enhance retention of the material and engagement. 
 
 ### VII. Future Considerations:
-Discuss your thoughts on the future role of AI in software engineering education. Consider potential advancements, challenges, and areas for improvement.
-
+There is an increasing number of students who utilize AI in education, and education systems will soon begin to incorporate it as well. There may be a shift in focus, placing an emphasis on and teaching different material related to AI. I think that this course is one of the few but rising number of courses that embrace AI and have no qualms against the usage of AI in all of the assignments. Even if courses do not allow AI, there will be students who use it regardless; it may be a matter of adaptability in the end. 
 
 ### VIII. Conclusion:
-Summarize your reflections and insights regarding the use of AI in the Software Engineering course. Conclude with any recommendations or suggestions for optimizing the integration of AI in future courses.
+Overall, with my personal and little experience of AI usage in this course, I can’t say much about how AI has inhibited or enhanced my time in ICS 314. I know that the usage of it was very prevalent in my section, and from what I have heard, very helpful in the early stages of the course. Once we entered React, Meteor, and Bootstrap, AI such as ChatGPT gave less useful or satisfactory responses. In the future, I would enjoy learning how to integrate AI systems into the applications that we build. It may be too much to fit in the semester, but I think that some exposure in building the actual software would be interesting.
