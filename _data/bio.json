@@ -7,7 +7,7 @@
     "phone": "808-333-4444",
     "website": "https://ehsuGit.github.io",
     "summary": "I am currently a student at UH Manoa working towards my BS degree in Biology, with an interest in Computer Science and studies that utilize both fields. I expect to graduate in Fall 2025",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "location": { "address": "XX Drive", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "ehsuGit", "url": "http://github.com/ehsuGit" },
       { "network": "linkedin", "username": "emilyhsu", "url": "http://linkedin.com/in/emily-hsu-086ba9232/" }
@@ -17,13 +17,14 @@
     { "name": "Genomics" },
     { "name": "Biotechnology" },
     { "name": "Data Science" },
+    { "name": "Web Design" },
     { "name": "Illustration" },
     { "name": "Bioinformatics" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript" ]
+      "keywords": [ "C", "C++", "Java", "Javascript", "HTML", "CSS", "Bootstrap React", "Meteor Mongo" ]
     },
     {
       "name": "Toolsets/OS",
@@ -33,11 +34,11 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Biology (expected Fall, 2025)",
+      "area": "Biology (expected Fall, 2025), Minor in Computer Science and Mandarin"
       "studyType": "B.S.",
       "startDate": "2021-09-01",
       "endDate": "Present",
-      "courses": [ "CHEM 272/273", "ICS 212", "ICS 141/241" ]
+      "courses": [ "CHEM 272/273", "BIOC 441", "ICS 212", "ICS 141/241", "ICS 314" ]
     }
   ],
   "work": [
@@ -46,11 +47,23 @@
       "position": "Nancy Atmospera-Walch School of Nursing Peer Advisor",
       "website": "https://manoa.hawaii.edu/undergrad/mpa/",
       "startDate": "2022-08-01",
-      "endDate": "Present",
+      "endDate": "2024-05-10",
       "summary": "Students trained to help their peers navigate college.",
       "highlights": [
         "Aiding students in their academic and future careers",
         "Ensuring student success in their classes and community"
+      ]
+    },
+    {
+      "company": "Auntie Anne's Pretzels",
+      "position": "Crew Member",
+      "website": "https://www.auntieannes.com/pretzels/?utm_source=google&utm_medium=organic&utm_campaign=menu",
+      "startDate": "2019-10-21",
+      "endDate": "2021-12-05",
+      "summary": "Maintained high standards of customer service during high-volume, fast-paced food operations",
+      "highlights": [
+        "Communicated across coworkers positively and built relations",
+        "Resolved customer complaints and issues quickly and professionally",
       ]
     },
   ],
@@ -62,6 +75,12 @@
       "date": "Feb 2018",
       "awarder": "CyberStart America",
       "summary": "My team and I won second in the state, advanced through multiple difficulties of cybersecurity puzzles."
+    }
+    {
+      "title": "Dean's List",
+      "date": "Fall 2021 - Present",
+      "awarder": "University of Hawaii at Manoa",
+      "summary": "Maintained a semester GPA of 3.5 or higher based on 12 credits or more."
     }
   ],
   "references": [
