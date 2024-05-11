@@ -24,12 +24,10 @@ Similar to Java and many other languages that can import classes/libraries, UI f
 
 ### Replicating Sites
 
-<div class="text-center p-4">
-  <img class="justify-content-center" src="../img/OGbulba.png">
-  _Original Bulbapedia Site_
+<img class="img-fluid" src="../img/OGbulba.png">
+_Original Bulbapedia Site_
 
-  <img class="justify-content-center" src="../img/bulbaReplicaMeteor.png">
-  _Replicated Bulbapedia Site with Bootstrap React and Meteor_
-</div>
+<img class="img-fluid" src="../img/bulbaReplicaMeteor.png">
+_Replicated Bulbapedia Site with Bootstrap React and Meteor_
 
 The extra effort needed to learn UI frameworks in return offers invaluable potential for any website that you design. It is an investment of time that, once familiar, gives you the tools for a clean design for lower effort. Many frameworks also offer the benefit of responsiveness, making your website as clean-cut and accessible as it is from device to device. The popularity of these frameworks attests to their practicality and applications, and have sprouted many different versions, such as React, jQuery, Ember, etc. It gives you the scaffolding and allows you to fiddle with it, add onto it as you please, and for some they would say that is the essence of programming.
