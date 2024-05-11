@@ -8,6 +8,7 @@ published: true
 labels:
   - C
   - UI
+  - Databases
 summary: "A banking UI I developed for ICS 212"
 ---
 
