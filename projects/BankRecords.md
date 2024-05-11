@@ -11,9 +11,7 @@ labels:
 summary: "A banking UI I developed for ICS 212"
 ---
 
-<img width="200px" 
-     class="rounded float-start pe-4" 
-     src="../img/banking2.png" >
+<img class="img-fluid" src="../img/bankingproject.png">
 
 As a mid-semester project assigned to test our capabilities in all of the major concepts of C, we were instructed to create a banking program complete with a simple user interface and database. The user interface had to allow users a selection of adding records, deleting, finding, printing all of the recorded records, or quitting the program. The program also had to "save" previous records from different sessions by writing the records to a file before quitting, and reading the contents when the program is run. The project also had a built-in debug mode, toggled through the command line. The debug mode would print the functions running in the background as well as any information that was passed to said functions. Overall, the project covered pointers, structures, dynamic/static memory allocation, global/local variables, file manipulation, etc.
 
