@@ -3,31 +3,33 @@ layout: essay
 type: essay
 title: "Building Off Frameworks"
 # All dates must be YYYY-MM-DD format!
-date: 2024-02-22
+date: 2024-12-12
 published: true
 labels:
   - Website Development & Design
+  - Project Building
+  - Team Building
   - UI frameworks
+  - JS
   - HTML
   - CSS
 ---
 
-When creating a project, there are times when we realize our goal can be achieved quicker by repurposing and adding onto some old code that we’ve written before. Perhaps a search system or a sorter; we copy that block of code over, tweak it a bit, and it saves time on a whole chunk of the project. If you know your code really well, you may opt to rewrite it yourself, but it can be tedious implementing the same thing over and over for different projects. When working with a deadline, this practice comes in handy. 
+<img width="200px" class="rounded float-start pe-4" src="../img/CS_Teamwork.png">
+
+As one of my final semesters rolls to an end, I am left with yet another plethora of experiences. Though I have taken quite a number of courses this semester, ICS 414 stands out as what will be the last computer science course that I will take for a long while. Though I am only pursuing a CS minor, I felt this course truly gave me a glimpse into what really happens in the backend, and what could be a possible future for me.
 
 ## HTML & CSS
 
-Web design with basic HTML is easy enough to pick up even if you are a beginner, though there is little room for visual development. CSS allows slight improvements visually and organizationally, and makes a fine website, but with just the two, things could end up looking somewhat archaic and uninteresting. This is fine if a simpler design is what you are going for, but it is unlikely to draw anyone in. If your goal is advertising a product or garnering attention in the modern age, “old” looking websites also strike many as malware or scams. Further attempts to make something visually appealing can take a lot of effort with extra coding of components. Thankfully, this extra code has already been taken care of by someone else, and is readily accessible for the public to utilize as UI frameworks.
+Having thoroughly enjoyed its prerequisite class, ICS 314, I had initially entered this course assuming that it would have a similar format, similar but advanced lessons, building upon what we learned. Instead, 414 took the last half of 314 and turned up the intensity. With a real client and a real request, we were tasked to create a website with our groups following a number of guidelines, meeting with the client regularly to assess the quality and progress of the project. This course was essentially a supervised simulation of project development in the workforce. With a real company hoping to see the fruits of our efforts, I will admit it was a little more intimidating.
 
 ## Bootstrap UI Framework
 
-Similar to Java and many other languages that can import classes/libraries, UI frameworks are just a package of premade items for you to utilize. Sure, everything in there could be coded by hand if that is what you prefer. But why waste that time reimplementing what has already been created? There’s no reason to reinvent the wheel. Even if you wanted to, it's nicer to start off with a template or an idea rather than completely from scratch. When first getting started with UI frameworks, there can be a bit of a learning curve. With Bootstrap being the first UI framework I utilized, I found that understanding what the different components can do, how they work, and how to modify them takes trial and error. This is very likely the case for other frameworks as well. There is a lot of cross-referencing with the documentation that might need to be done, sometimes it can also be beneficial to rip a piece of example code off the documentation itself and tinker with it to observe exactly how it reacts to different modifications. Replicating a chosen site demonstrated above is also a good exercise for learning the fundamentals.
+I felt that this course overall was very hands-off and independent from our instructor, most aspects of the project were decided on and delegated from within the group. We were still free to ask for advice when needed, but ultimately the structure felt very loose. Within our arranged groups, I could quickly tell that there were differences in our skill level, despite the fact that many of us were likely in the same area on our academic pathways. This made me realize a number of things. With the many people that I have met while studying CS, I could file them into two vague groups. Those who simply took the courses, worked through the assignments and exams, and those who really had the passion and took the initiative to do more than just what was assigned of them. I felt like those in the latter group really thrived in this course. A lot of the requirements for the project were not taught explicitly, rather we were challenged to come up with solutions and code processes that could accommodate the tasks. Those who took advantage and initiative were able to glean the most from this class; not much else is better than first-hand experience with project building. Through the milestone meetings, we could also observe what other groups had produced as their solutions, and share ideas amongst each other for how to improve our sites. 
 
 ### Replicating Sites
 
-<img class="img-fluid" src="../img/OGbulba.png">
-_Original Bulbapedia Site_
+Along with borrowing ideas and information between groups, as an individual, I was able to learn a lot just from my own group. I do not think that my coding abilities are anything to be super proud of. I occasionally have a breakthrough but I find that I can make things overcomplicated. So when I took a look at my groupmates’ code and saw how streamlined everything was, I found myself referencing their code when I was working and fixing things as I went. In many parts of our project, our group used different imports and packages that I was not even aware of, and I was able to look up the documentation and learn how to use it. Aside from making the project better, I was able to make a mental note of them to use in future endeavors. That is just another advantage when working with a team, there are good habits and tips to pick up from each other, ones that make us better coders as a whole.
 
-<img class="img-fluid" src="../img/bulbaReplicaMeteor.png">
-_Replicated Bulbapedia Site with Bootstrap React and Meteor_
+Our goal certainly was not easy, and we poured hours over how to display the projections, how to write the formulas and calculations for the sheets, even how to format the sheets for customers to import, edit, and view. We may not have been able to fulfill all of the requests of the client, but what we learned and accomplished here is something that I nonetheless am proud of. Not only do I value the experience that this offered, but I know that it will be a great reference in the future, and possibly even a project that we could keep tinkering with as years go by and we gain more knowledge. In hindsight, as the last course in my CS minor pathway, I felt that this was a fitting and challenging class to end on.
 
-The extra effort needed to learn UI frameworks in return offers invaluable potential for any website that you design. It is an investment of time that, once familiar, gives you the tools for a clean design for lower effort. Many frameworks also offer the benefit of responsiveness, making your website as clean-cut and accessible as it is from device to device. The popularity of these frameworks attests to their practicality and applications, and have sprouted many different versions, such as React, jQuery, Ember, etc. It gives you the scaffolding and allows you to fiddle with it, add onto it as you please, and for some they would say that is the essence of programming.
