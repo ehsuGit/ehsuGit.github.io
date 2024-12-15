@@ -15,7 +15,7 @@ labels:
   - CSS
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/CS_Teamwork.png">
+<img width="200px" class="rounded float-start pe-4" src="../img/CS_teamwork.png">
 
 As one of my final semesters rolls to an end, I am left with yet another plethora of experiences. Though I have taken quite a number of courses this semester, ICS 414 stands out as what will be the last computer science course that I will take for a long while. Though I am only pursuing a CS minor, I felt this course truly gave me a glimpse into what really happens in the backend, and what could be a possible future for me.
 
