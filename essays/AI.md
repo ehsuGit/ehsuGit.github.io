@@ -4,7 +4,7 @@ type: essay
 title: "The New Technological Revolution"
 # All dates must be YYYY-MM-DD format!
 date: 2024-05-06
-published: true
+published: false
 labels:
   - Software Development
   - Programming
